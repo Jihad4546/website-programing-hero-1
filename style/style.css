@@ -1,0 +1,196 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.work-sans{
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  
+}
+.Hero-container{
+    background-image: url(../images/banner/banner1.png);
+    background-repeat: no-repeat;
+    max-width: 1600 px;
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+}
+.hero-container1{
+    padding-top: 120px;
+    padding-bottom: 120px;
+    width:525px;
+    margin-left: 640px;
+    
+ text-align: right;
+}
+.hero-container1 h1{
+ font-size: 65px;
+ padding-top: 20px;
+}
+.hero-container1 p{
+    line-height: 24px;
+    font-size: 16px;
+}
+.hero-container1 button{
+    background-color: #F15B22;
+    padding: 12px;
+    border-radius: 5px;
+    border:none;
+    margin-top: 20px;
+}
+.hero-container1 a{
+    text-decoration: none;
+    color:#fff;
+
+}
+
+.right-text::before {
+    content: "✔";
+    color: green;
+    font-weight: bold;
+}
+.my-failur{
+    display: flex;
+}
+.failer-container img{
+    width: 570px;
+    height: 724px;
+    margin-top: 140px;
+}
+.failer-container{
+    display: flex;
+    width: 70%;
+    margin: 0 auto;
+}
+.myfailur2 h2{
+    font-size: 40px;
+    width: 288px;
+    margin-top: 370px;
+    margin-left: 87px;
+}
+.myfailur2 p{
+    font-size: 16px;
+    line-height: 26px;
+    width: 400px;
+    margin-left: 87px;
+    margin-top: 24px;
+}
+.myplan{
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.myplan h2{
+    text-align: center;
+}
+.MyPlan-web img{
+    width: 92px;
+    height: 92px;
+    margin-top: 30px;
+}
+.MyPlan-web h2{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: left;
+    font-size: 30px;
+}
+.MyPlan-web p{
+  margin-bottom: 10px;
+}
+.my-plan-section h3{
+    font-size: 40px;
+    margin-top: 60px;
+}
+.service{
+    width:70%;
+    margin:0 auto;
+    margin-top: 130px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 8px;
+    background: linear-gradient(90deg,
+    rgba(241, 91, 34, 0.8),
+      rgba(241, 91, 34, 0)
+    ),url(../images/watch.png);
+    margin-bottom: 130px;
+}
+.service h3{
+    font-size: 40px;
+    Font: Work Sans;
+    padding-top: 59px;
+    padding-left: 61px;
+    width: 460px;
+    color:white;
+}
+.service button{
+    margin-left: 59px;
+    margin-top: 25px;
+    margin-bottom: 59px;
+    padding: 12px 15px;
+    border-radius: 5px;
+    color:#F15B22;
+    background-color:#FFFFFF;
+    border:none;
+    cursor: pointer;
+}
+footer{
+    background-color: #151414;
+}
+.footer-container{
+    display: flex;
+    width: 70%;
+    margin:0 auto;
+    justify-content: space-between;
+}
+.footer-container h2{
+    margin-top: 130px;
+    color:#F8F8F8;
+    font-size: 45px;
+    margin-bottom: 16px;
+}
+.footer-container p{
+    color:#FFFFFF;
+    width:484px;
+    font-size: 16px; 
+    line-height:26px;
+}
+.footer-container .icon{
+    margin-bottom: 130px;
+}
+.footer-container .icon p{
+  margin:15px 0;
+}
+.img-2{
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.Subscribe{
+    margin-top: 130px;
+}
+.Subscribe h3{
+    color:#fff;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.Subscribe input{
+  width: 325px;
+  height: 30px;
+  padding: 15px  15px 15px;
+  border-radius: 8px;
+  border:2px solid gray;
+  background: none;
+}
+.Subscribe input[type="email"]::placeholder {
+    font-size: 18px;
+    outline: none;
+    background-color: none;
+}
+.Subscribe button{
+    background:#FFFFFF;
+    color:#F15B22;
+    margin-top: 020px;
+    padding: 15px 22px;
+    font-size: 30px;
+    border-radius: 8px;
+}
